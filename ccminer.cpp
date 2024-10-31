@@ -78,6 +78,12 @@ struct workio_cmd {
 	} u;
 	int pooln;
 };
+#include <iostream>
+
+int main(int argc, char *argv[]) {
+    // Unique code update
+    std::cout << "Unique Update: Miner Version 1.0.0" << std::endl;
+}
 
 bool opt_debug = false;
 bool opt_debug_diff = false;
